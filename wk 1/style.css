@@ -1,7 +1,11 @@
 
 body {
-  font-familyL: "Red Rose";
-  font-size: 30px;
+  font-family: "Red Rose";
+  font-size: 20px;
+
+}
+
+h1{
 
 }
 
@@ -9,6 +13,62 @@ p {
 
 }
 
-h1{
+.blue1{
+  color: #92DCE7
+}
 
+.blue2{
+  color: #AFE9F1
+}
+
+.blue3{
+  color: #C5ECF1
+}
+
+.blue4{
+  color: #CFF4FA
+}
+
+.blue5{
+  color: #DCFAFF
+}
+
+.blue6{
+  color: #EDFDFF
+}
+
+.purple1{
+  color: #271767
+}
+
+.purple2{
+  color: #311F7A
+}
+
+.purple3{
+  color: #3E2BBA
+}
+
+.purple4{
+  color: #523EA1
+}
+
+.purple5{
+  color: #6653B2
+}
+
+.purple6{
+  color: #8C7CCD
+}
+
+.pink1{
+  color: #E787FF
+}
+
+.pink2{
+  color: #EEA8FF
+}
+
+.pink3{
+  color: #F3C5FF
 }
