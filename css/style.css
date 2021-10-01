@@ -1,6 +1,10 @@
 body{
-  color:#271767; <!-- Darkest purple, purple1 -->
-  background-color:#EDFEDDF; <!-- Lightest blue, blue6 -->
+  color:#271767; /*Darkest purple, purple1*/
+  background-color:#EDFEDDF; /*Lightest blue, blue6*/
 
-  font-family: Imapact, Charcoal, sans-serif;
+  font-family: Arial, Helvetica, sans-serif; /*Web safe font*/
+  font-size: 20px;
+  font-weight: normal;
+
+  line-height: 1.6em;
 }
