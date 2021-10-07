@@ -13,11 +13,11 @@
 
     <script>
       const quotes = ["quote1","quote2","quote3","quote4","quote5","quote6","quote7","quote8"];
-
+      let quotecount = 0;
 
       document.getElementById("newquote").addEventListener("click", buttonClicked);
       function buttonClicked(){
-        console.log(quotes[0]);
+        console.log(quotes[quotecount]);
       }
     </script>
   </body>
