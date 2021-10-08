@@ -1,6 +1,20 @@
+
 section{
-  background-color: blue;
+  color: #554348;
+  background-color: #93B7BE;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
   border-radius: 10px;
+}
+
+button{
+  color: #554348;
+  background-color: #8C9a9E;
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+}
+
+body{
+  background-color: #747578
 }
