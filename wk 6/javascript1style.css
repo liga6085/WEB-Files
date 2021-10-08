@@ -1,5 +1,6 @@
 section{
   background-color: blue;
   margin: 30vh 20vw;
-  padding: 10vh 10vw
+  padding: 10vh 10vw;
+  border-radius: 10px;
 }
