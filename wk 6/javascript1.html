@@ -7,7 +7,7 @@
   </head>
   <body>
     <section>
-    <h1>Welcome to the Quote Machine! Click the button to get a quote!</h1>
+    <h1 id="qtext">Welcome to the Quote Machine! Click the button to get a quote!</h1>
     <button id="newquote">New Quote</button>
     </section>
 
@@ -18,7 +18,13 @@
       document.getElementById("newquote").addEventListener("click", buttonClicked);
       function buttonClicked(){
         console.log(quotes[quotecount]);
-        quotecount += 1;
+        document.getElementById("qtext").innerHTML = quotes[quotecount];
+        if(quotecount>=7){
+          quotecount = 0;
+        }else{
+          quotecount += 1;
+        }
+
       }
     </script>
   </body>
