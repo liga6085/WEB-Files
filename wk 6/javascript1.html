@@ -8,12 +8,25 @@
   <body>
     <section>
     <h1 id="qtext">Welcome to the Quote Machine! Click the button to get a quote!</h1>
+    <!-- <h4 id="ttext">Don't like the theme? You can switch it up!</h4> -->
     <button id="newquote">New Quote</button>
+    <button id="newcolor">New Color</button>
+
+    <!-- <button id="newtheme">New Theme</button> -->
     </section>
 
     <script>
-      const quotes = ["quote1","quote2","quote3","quote4","quote5","quote6","quote7","quote8"];
+      const quotes = ["Not understanding parts of the world is an amazing discovery.",
+      "A man who sleeps with a machete is a fool every night but one.",
+      "Listen to your inner child, take a nap, maybe you'll be less cranky.",
+      "People say 'I love you' in quite ways, try vocalizing it, and see how their face lights up.",
+      "Even if your day was bad, just getting to the end of it is an incredible accomplishment.",
+      "People will tell you the world is cruel, see this as wrong and add kindness.",
+      "Just being is enough. Take a breath.",
+      "Every workplace, has a Jeff"];
       let quotecount = 0;
+      const colors = ["name1","name2","name3","name4"]
+      let colorscount = 0;
 
       document.getElementById("newquote").addEventListener("click", buttonClicked);
       function buttonClicked(){
@@ -26,6 +39,25 @@
         }
 
       }
+
+      /*unsure to add this
+      const themes = [];
+      let themecount = 0;
+
+      document.getElementById("newtheme").addEventListener("click", buttonClicked);
+      function buttonClicked(){
+        console.log(themes[themecount]);
+        document.getElementById("ttext").innerHTML = themes[themecount];
+        if(themecount>=7){
+          themecount = 0;
+        }else{
+          themecount += 1;
+        }
+
+      }
+      unsure to add this*/
+
     </script>
+
   </body>
 </html>
