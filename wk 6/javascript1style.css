@@ -1,20 +1,30 @@
 
 section{
-  color: #554348;
-  background-color: #93B7BE;
+  color: #3D405B;
+  font-family: Arial, Helvetica, sans-serif; /*Web safe font*/
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #F4F1DE;
   margin: 30vh 20vw;
   padding: 10vh 10vw;
   border-radius: 10px;
 }
 
 button{
-  color: #554348;
-  background-color: #8C9a9E;
+  color: #3D405B;
+  background-color: #E07A5F;
   border-radius: 8px;
   padding: 1vh 3vw;
   float: right;
 }
 
 body{
-  background-color: #747578
+  background-color: #F2CC8F;
+  border-style: solid;
+  border-color: #81B29A;
+  border-radius: 10px;
+}
+
+color1{
+
 }
