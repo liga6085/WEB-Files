@@ -1,0 +1,17 @@
+div{
+  background-color: pink;
+}
+
+#desserts{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+img{
+  max-width: 3vw;
+}
