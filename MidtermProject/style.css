@@ -34,5 +34,13 @@ body{
 }
 
 .hexagon:after{
-  
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #000000;
 }
