@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: grey;
+  background-color: #480355;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body{
 .hexagon{
   width: 100px;
   height: 60px;
-  background: #000000;
+  background: #9448BC;
   position: relative;
 }
 
@@ -30,7 +30,7 @@ body{
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 30px solid #000000;
+  border-bottom: 30px solid #9448BC;
 }
 
 .hexagon:after{
@@ -42,5 +42,9 @@ body{
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 30px solid #000000;
+  border-top: 30px solid #9448BC;
+}
+
+p{
+  color: #90FCF9;
 }
