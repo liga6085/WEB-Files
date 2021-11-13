@@ -1,5 +1,5 @@
 body{
-  background-color: #480355;
+  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,5 +20,5 @@ body{
 }
 
 .hexagon before{
-  
+
 }
