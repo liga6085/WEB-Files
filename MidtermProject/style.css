@@ -21,7 +21,7 @@ body{
   position: relative;
 }
 
-.hexagon before{
+.hexagon:before{
   content: '';
   position: absolute;
   top: -30px;
@@ -31,4 +31,8 @@ body{
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 30px solid #000000;
+}
+
+.hexagon:after{
+  
 }
