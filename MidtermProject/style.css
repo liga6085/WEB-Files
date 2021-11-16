@@ -75,4 +75,6 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border: 1px solid #90FCF9;
+  border-radius: 10px;
 }
