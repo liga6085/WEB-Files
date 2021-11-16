@@ -10,7 +10,7 @@
     <div class="container">
       <div class="hexagonArea first">
         <div class="hexagon">
-          <button class="button">S</button>
+          <button class="button" id="show-modal">S</button>
           <!-- <div class="su-modal" is="su-modal">
             <div class="suheader">
               <div class="title">Self Care - Monday</div>
@@ -33,7 +33,7 @@
           </div> -->
         </div>
         <div class="hexagon">
-          <button class="button">M</button>
+          <!-- <button class="button">M</button> uncomment after figuring out sunday button-->
           <!-- <div class="mpopup" id="mpopup">
             <form>
               <input type="checkbox" name="m1" value="m1">
@@ -48,7 +48,7 @@
           </div> -->
         </div>
         <div class="hexagon">
-          <button class="button">T</button>
+          <!-- <button class="button">T</button> -->
           <!-- <div class="tpopup" id="tpopup">
             <form>
               <input type="checkbox" name="t1" value="t1">
@@ -61,7 +61,7 @@
           </div> -->
         </div>
         <div class="hexagon">
-          <button class="button">W</button>
+          <!-- <button class="button">W</button> -->
           <!-- <div class="wpopup" id="wpopup">
             <form>
               <input type="checkbox" name="w1" value="w1">
@@ -76,7 +76,7 @@
       </div>
       <div class="hexagonArea last">
         <div class="hexagon">
-          <button class="button">Th</button>
+          <!-- <button class="button">Th</button> -->
           <!-- <div class="thpopup" id="thpopup">
             <form>
               <input type="checkbox" name="th1" value="th1">
@@ -89,7 +89,7 @@
           </div> -->
         </div>
         <div class="hexagon">
-          <button class="button">F</button>
+          <!-- <button class="button">F</button> -->
           <!-- <div class="fpopup" id="fpopup">
             <form>
               <input type="checkbox" name="f1" value="f1">
@@ -102,7 +102,7 @@
           </div> -->
         </div>
         <div class="hexagon">
-          <button class="button">S</button>
+          <!-- <button class="button">S</button> -->
           <!-- <div class="sapopup" id="sapopup">
             <form>
               <input type="checkbox" name="sa1" value="sa1">
@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div class="modal" is="modal">
+    <!-- <div class="modal" is="modal">
       <div class="header">
         <div class="title">Self Care - Monday</div>
         <button data-close-button class="close-button">&times;</button>
@@ -137,7 +137,7 @@
         </div>
       </div>
     </div>
-    <div id="overlay"></div>
+    <div id="overlay"></div> -->
 
     <!-- <form class="multiselect"> checklist form
       <div class="selectBox" onclick="showCheckboxes()">
@@ -166,8 +166,11 @@
   </body>
 </html>
 
-<div class="modal">
-  <div class="modal_contents">
+<div class="modal modal--hidden">
+  <div class="modal__contents">
+    <div class="modal__close-bar">
+      <span>X</span>
+    </div>
     <p>test text test text</p>
   </div>
 </div>
