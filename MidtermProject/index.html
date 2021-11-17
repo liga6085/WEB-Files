@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title>Midterm Website</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script defer src="/assets/script.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="hexagonArea first">
-        <div class="hexagon">
+        <div class="hexagon" id="sunday">
           <button data-modal-target="#modal"class="button">S</button>
 
           <!-- <div class="su-modal" is="su-modal">
@@ -33,7 +33,7 @@
             </div>
           </div> -->
         </div>
-        <div class="hexagon">
+        <div class="hexagon" id="monday">
           <button class="button">M</button>
           <!-- <div class="mpopup" id="mpopup">
             <form>
@@ -48,7 +48,7 @@
             </form>
           </div> -->
         </div>
-        <div class="hexagon">
+        <div class="hexagon" id="tuesday">
           <!-- <button class="button">T</button> -->
           <!-- <div class="tpopup" id="tpopup">
             <form>
@@ -61,7 +61,7 @@
             </form>
           </div> -->
         </div>
-        <div class="hexagon">
+        <div class="hexagon" id="wednesday">
           <!-- <button class="button">W</button> -->
           <!-- <div class="wpopup" id="wpopup">
             <form>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="hexagonArea last">
-        <div class="hexagon">
+        <div class="hexagon" id="thursday">
           <!-- <button class="button">Th</button> -->
           <!-- <div class="thpopup" id="thpopup">
             <form>
@@ -89,7 +89,7 @@
             </form>
           </div> -->
         </div>
-        <div class="hexagon">
+        <div class="hexagon" id="friday">
           <!-- <button class="button">F</button> -->
           <!-- <div class="fpopup" id="fpopup">
             <form>
@@ -102,7 +102,7 @@
             </form>
           </div> -->
         </div>
-        <div class="hexagon">
+        <div class="hexagon" id="saturday">
           <!-- <button class="button">S</button> -->
           <!-- <div class="sapopup" id="sapopup">
             <form>
@@ -166,10 +166,11 @@
     </form> -->
 <!-- ________________________________________________ -->
 <!-- Sunday -->
+<div id="overlay">
     <div class="modal" id="modal">
       <div class="modal-header">
         <div class="title">Self Care - Sunday</div>
-        <button data-close-button class="close-button">&times;</button>
+        <button data-close-button class="close-button" id="close">&times;</button>
       </div>
       <div class="modal-body">
         <form>
@@ -184,10 +185,10 @@
         </form>
       </div>
     </div>
-    <div id="overlay"></div>
+    </div>
 <!-- ________________________________________________ -->
 <!-- Monday -->
-    <div class="modal" id="modal">
+    <!-- <div class="modal" id="modal">
       <div class="modal-header">
         <div class="title">Self Care - Monday</div>
         <button data-close-button class="close-button">&times;</button>
@@ -205,7 +206,7 @@
         </form>
       </div>
     </div>
-    <div id="overlay"></div>
+    <div id="overlay"></div> -->
 <!-- ________________________________________________ -->
 
   </body>
