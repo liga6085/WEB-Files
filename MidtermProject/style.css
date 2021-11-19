@@ -10,19 +10,14 @@ h3{
   color: #90FCF9;
 }
 
-.button{
-  height: 70px;
-  width: 70px;
-  border: none;
-  background-color: #9448BC;
-  font-size: 80px;
-  color: #90FCF9;
-}
+ h1{
+   font-size: 80px;
+   color: #90FCF9;
+ }
 
-.button:hover{
-  color: #9448BC;
-  background-color: #90FCF9;
-}
+ h1:hover{
+   color: #9448BC
+ }
 
 body{
   display: flex;
