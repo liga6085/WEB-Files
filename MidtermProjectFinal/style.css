@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'VT323', sans-serif;
+}
+h3{
+  font-size: 80px;
+  color: #90FCF9;
+}
+
+h1{
+  font-size: 80px;
+  color: #90FCF9;
+}
+/* .button{
+  height: 70px;
+  width: 70px;
+  border: none;
+  background-color: #9448BC;
+  font-size: 80px;
+  color: #90FCF9;
+}
+
+.button:hover{
+  color: #9448BC;
+  background-color: #90FCF9;
+} */
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #480355;
+}
+
+.container{
+  width: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container .hexagonArea{
+  display: flex;
+}
+
+.container .hexagonArea.last{
+  transform: translateY(-45px);
+}
+
+.container .hexagonArea .hexagon{
+  position: relative;
+  width: 200px;
+  height: 250px;
+  margin: 0 10px;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #9448BC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.container .hexagonArea .hexagon:hover{
+  background-color: #90FCF9;
+  transform: scale(0.8);
+}
+
+.modal{
+  /* display: none; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border: 1px solid #90FCF9;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #63B4D1;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active{
+  /* display:block; */
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header{
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #90FCF9;
+}
+
+.modal-header .title{
+  font-size: 1.25rem;
+
+}
+
+.modal-header .close-button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+}
+
+.modal-body{
+  padding: 10px 15px;
+}
+
+#overlay{
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active{
+  opacity: 1;
+  pointer-events: all;
+}
