@@ -3,17 +3,24 @@
 h1{
   font-family: "Red Rose";
   color: #311F7A;
+  text-align: center;
 }
 
 body{
+  font-family: "Red Rose";
   background-color: Gainsboro;
+  color: #311F7A;
+  text-align: center;
 }
 
 button{
+  font-family: "Red Rose";
   color: #311F7A;
   background-color: #92DCE7;
   border: none;
   border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 4px #79BAC3;
 }
 
 button:hover{
@@ -23,4 +30,18 @@ button:hover{
 button:active{
   background-color: #311F7A;
   color: #92DCE7;
+  margin-top: 6px;
+  box-shadow: none;
+}
+
+/* button:visited{
+  color: #EEA8FF;
+} */
+
+/* border line */
+hr{
+  width: 75%;
+  height: 2px;
+  background-color: #E787FF;
+  border: none;
 }
