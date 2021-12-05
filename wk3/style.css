@@ -6,6 +6,10 @@ h1{
   text-align: center;
 }
 
+/* h3{
+  color: #8C7CCD;
+} */
+
 body{
   font-family: "Red Rose";
   background-color: Gainsboro;
@@ -37,6 +41,14 @@ button:active{
 /* button:visited{
   color: #EEA8FF;
 } */
+
+a{
+  color: white;
+}
+
+a:hover{
+  background-color: #E787FF;
+}
 
 /* border line */
 hr{
