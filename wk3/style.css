@@ -34,7 +34,7 @@ button:hover{
 button:active{
   background-color: #311F7A;
   color: #92DCE7;
-  margin-top: 6px;
+  margin-top: 16px;
   box-shadow: none;
 }
 
@@ -43,11 +43,23 @@ button:active{
 } */
 
 a{
-  color: white;
+  color: #271767;
+  text-decoration: none;
 }
 
 a:hover{
+  color: #E787FF;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #92DCE7;
   background-color: #E787FF;
+}
+
+a:visited{
+  color: #E787FF;
+  text-decoration: underline;
 }
 
 /* border line */
