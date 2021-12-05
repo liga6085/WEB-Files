@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+h1{
+  font-family: "Red Rose";
+  color: #311F7A;
+  text-align: center;
+}
+
+/* h3{
+  color: #8C7CCD;
+} */
+
+body{
+  font-family: "Red Rose";
+  background-color: Gainsboro;
+  color: #311F7A;
+  text-align: center;
+}
+
+button{
+  font-family: "Red Rose";
+  color: #311F7A;
+  background-color: #92DCE7;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  box-shadow: 0px 4px #79BAC3;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+button:active{
+  background-color: #311F7A;
+  color: #92DCE7;
+  margin-top: 16px;
+  box-shadow: none;
+}
+
+/* button:visited{
+  color: #EEA8FF;
+} */
+
+a{
+  color: #271767;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #E787FF;
+  text-decoration: underline;
+}
+
+a:active{
+  color: #92DCE7;
+  background-color: #E787FF;
+}
+
+a:visited{
+  color: #E787FF;
+  text-decoration: underline;
+}
+
+/* border line */
+hr{
+  width: 75%;
+  height: 2px;
+  background-color: #E787FF;
+  border: none;
+}
