@@ -1,11 +1,43 @@
-body{
-  background-color: #1B9AAA;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-h1{
+/* h1{
   font-family: helvetica;
   font-size: 100px;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
+} */
+
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #1B9AAA;
+  overflow: hidden;
+}
+
+section .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+section .wave.wave1{
+  animation: animate 30s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: 1000px;
+  }
 }
