@@ -1,35 +1,80 @@
 *{
   margin: 0;
   padding: 0;
+  background-color: #1B9AAA;
 }
 
-/* h1{
+section.sec1{
+
+}
+
+h1{
   font-family: helvetica;
   font-size: 100px;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
-} */
+}
+/* Boxes showing project photos--------------------------------------------------------- */
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: #F5F1E3;
+  border-radius: 20px;
+  float: left;
+  margin-left: 470px;
+  margin-top: 20px;
+}
 
-section{
-  position: relative;
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: #F5F1E3;
+  border-radius: 20px;
+  float: right;
+  margin-right: 470px;
+  margin-top: 20px;
+}
+
+.box3{
+  width: 200px;
+  height: 200px;
+  background-color: #F5F1E3;
+  border-radius: 20px;
+  float: left;
+  margin-left: 470px;
+  margin-top: 20px;
+}
+
+.box4{
+  width: 200px;
+  height: 200px;
+  background-color: #F5F1E3;
+  border-radius: 20px;
+  float: right;
+  margin-right: 470px;
+  margin-top: 20px;
+}
+/* Wave Animation (Bottom of screen)---------------------------------------------------- */
+footer.waves{
+  position: sticky;
   width: 100%;
   height: 100vh;
   background: #1B9AAA;
   overflow: hidden;
 }
 
-section .wave{
+footer .wave{
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(wave.png);
+  background: url(wave2.png);
   background-size: 1000px 100px;
 }
 
-section .wave.wave1{
+footer .wave.wave1{
   animation: animate 30s linear infinite;
   z-index: 1000;
   opacity: 1;
@@ -37,12 +82,28 @@ section .wave.wave1{
   bottom: 0;
 }
 
-section .wave.wave2{
+footer .wave.wave2{
   animation: animate2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
+}
+
+footer .wave.wave3{
+  animation: animate3 30s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+
+footer .wave.wave4{
+  animation: animate4 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
 }
 
 @keyframes animate{
@@ -62,3 +123,22 @@ section .wave.wave2{
     background-position-x: -1000px;
   }
 }
+
+@keyframes animate3{
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: -1000px;
+  }
+}
+
+@keyframes animate4{
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: -1000px;
+  }
+}
+/* ------------------------------------------------------------------------------------- */
