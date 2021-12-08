@@ -55,6 +55,22 @@ h1{
   margin-right: 470px;
   margin-top: 20px;
 }
+
+.box1:hover{
+  background-color: black;
+}
+
+.box2:hover{
+  background-color: blue;
+}
+
+.box3:hover{
+    background: red;
+}
+
+.box4:hover{
+  background-color: green;
+}
 /* Wave Animation (Bottom of screen)---------------------------------------------------- */
 footer.waves{
   position: sticky;
