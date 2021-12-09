@@ -39,3 +39,14 @@ section{
   padding: 5px;
   font-size: 18px;
 }
+
+textarea{
+  resize: vertical;
+}
+
+button[type="submit"]{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
