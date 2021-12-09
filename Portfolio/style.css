@@ -4,26 +4,46 @@
   background-color: #1B9AAA;
 }
 
-/* section.sec1{
+section.sec1{
+  text-decoration: none;
+}
 
-} */
+/* Menu header-------------------------------------------------------------------------- */
 nav{
   width: 100%;
   height: 50px;
   background-color: #F5F1E3;
+  position: sticky;
+  top: 0;
 }
 
 nav ul{
   display: flex;
   margin: 0;
   padding: 0 100px;
-  float: right;
+  float: left;
+  background-color: #F5F1E3;
 }
 
 nav ul li{
   list-style: none;
 }
 
+nav ul li a{
+  display: block;
+  color: #154258;
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: helvetica;
+  line-height: 50px;
+  background-color: #F5F1E3;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  background-color: #DDDBCB;
+}
+/* Name on website---------------------------------------------------------------------- */
 h1{
   font-family: helvetica;
   font-size: 100px;
@@ -73,27 +93,27 @@ h1{
 }
 
 .box1:hover{
-  background-color: black;
+  background-color: #DDDBCB;
 }
 
 .box2:hover{
-  background-color: blue;
+  background-color: #DDDBCB;
 }
 
 .box3:hover{
-    background: red;
+    background: #DDDBCB;
 }
 
 .box4:hover{
-  background-color: green;
+  background-color: #DDDBCB;
 }
 /* Wave Animation (Bottom of screen)---------------------------------------------------- */
 footer.waves{
-  position: sticky;
   width: 100%;
-  height: 100vh;
-  background: #1B9AAA;
+  height: 50vh;
+  /* background: #1B9AAA; */
   overflow: hidden;
+  position: sticky;
 }
 
 footer .wave{
