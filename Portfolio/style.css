@@ -7,7 +7,6 @@
 section.sec1{
   text-decoration: none;
 }
-
 /* Menu header-------------------------------------------------------------------------- */
 nav{
   width: 100%;
@@ -38,20 +37,22 @@ nav ul li a{
   line-height: 50px;
   background-color: #F5F1E3;
   font-weight: bold;
+  transition: 1s;
 }
 
 nav ul li a:hover{
   background-color: #DDDBCB;
 }
 /* Name on website---------------------------------------------------------------------- */
-h1{
+/* h1{
   font-family: helvetica;
   font-size: 100px;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
-}
+} */
 /* Boxes showing project photos--------------------------------------------------------- */
+
 .box1{
   width: 200px;
   height: 200px;
@@ -60,6 +61,7 @@ h1{
   float: left;
   margin-left: 470px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 .box2{
@@ -70,6 +72,7 @@ h1{
   float: right;
   margin-right: 470px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 .box3{
@@ -80,6 +83,8 @@ h1{
   float: left;
   margin-left: 470px;
   margin-top: 20px;
+  transition: 1s;
+  z-index: 200;
 }
 
 .box4{
@@ -90,27 +95,32 @@ h1{
   float: right;
   margin-right: 470px;
   margin-top: 20px;
+  transition: 1s;
 }
 
 .box1:hover{
+  transform: scale(1.2);
   background-color: #DDDBCB;
 }
 
 .box2:hover{
+  transform: scale(1.2);
   background-color: #DDDBCB;
 }
 
 .box3:hover{
-    background: #DDDBCB;
+  transform: scale(1.2);
+  background: #DDDBCB;
 }
 
 .box4:hover{
+  transform: scale(1.2);
   background-color: #DDDBCB;
 }
 /* Wave Animation (Bottom of screen)---------------------------------------------------- */
 footer.waves{
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   /* background: #1B9AAA; */
   overflow: hidden;
   position: sticky;
@@ -128,7 +138,7 @@ footer .wave{
 
 footer .wave.wave1{
   animation: animate 30s linear infinite;
-  z-index: 1000;
+  z-index: 100;
   opacity: 1;
   animation-delay: 0s;
   bottom: 0;
@@ -136,7 +146,7 @@ footer .wave.wave1{
 
 footer .wave.wave2{
   animation: animate2 15s linear infinite;
-  z-index: 999;
+  z-index: 99;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
@@ -144,7 +154,7 @@ footer .wave.wave2{
 
 footer .wave.wave3{
   animation: animate3 30s linear infinite;
-  z-index: 998;
+  z-index: 98;
   opacity: 0.2;
   animation-delay: -2s;
   bottom: 15px;
@@ -152,7 +162,7 @@ footer .wave.wave3{
 
 footer .wave.wave4{
   animation: animate4 5s linear infinite;
-  z-index: 997;
+  z-index: 97;
   opacity: 0.7;
   animation-delay: -5s;
   bottom: 20px;
