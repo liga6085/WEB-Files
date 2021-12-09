@@ -3,8 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title>Lily Gabriel's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script defer src="portfolio.js"></script>
   </head>
   <body>
     <h1>Portfolio</h1>
+    <section>
+      <ul>
+        <li class="list active" data-filter="all">Show All</li>
+        <li class="list" data-filter="software">Software</li>
+        <li class="list" data-filter="hardware">Hardware</li>
+        <li class="list" data-filter="art">Art</li>
+      </ul>
+      <div class="project">
+        <div class="itemBox" data-item="software">software1</div>
+        <div class="itemBox" data-item="art">art1</div>
+        <div class="itemBox" data-item="art">art2</div>
+        <div class="itemBox" data-item="hardware">hardware1</div>
+        <div class="itemBox" data-item="software">software2</div>
+        <div class="itemBox" data-item="hardware">hardware2</div>
+      </div>
+    </section>
+    <!-- <div id="buttons">
+      <button class="btn" onclick="filterObjects('all')">Show All</button>
+      <button class="btn" onclick="filterObjects('software')">Software</button>
+      <button class="btn" onclick="filterObjects('hardware')">Hardware</button>
+      <button class="btn" onclick="filterObjects('art')">Art</button>
+    </div>
+    <div class="objects">
+      <div class="box software">s1</div>
+      <div class="box software">s2</div>
+      <div class="box software hardware">sh3</div>
+      <div class="box hardware">h1</div>
+      <div class="box hardware">h2</div>
+      <div class="box hardware">h3</div>
+      <div class="box art">a1</div>
+      <div class="box art hardware">ah2</div>
+      <div class="box art">a3</div>
+    </div> -->
   </body>
 </html>
