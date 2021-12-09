@@ -67,14 +67,14 @@ section ul{
 
 section ul li{
   list-style: none;
-  background: grey;
+  background: lightgrey;
   padding: 12px 20px;
   margin: 5px;
   cursor: pointer;
 }
 
 section ul li.active{
-  background: blue;
+  background: lightblue;
   color: white;
 }
 
@@ -92,4 +92,8 @@ section ul li.active{
   margin: 5px;
   background: pink;
   display: block;
+}
+
+.project .itemBox.hide{
+  display: none;
 }
