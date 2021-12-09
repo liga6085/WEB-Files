@@ -56,3 +56,8 @@ button[type="submit"]{
   cursor: pointer;
   margin-top: 10px;
 }
+
+button[type="submit"]:hover{
+  background: black;
+  color: white;
+}
