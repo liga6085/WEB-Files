@@ -86,12 +86,20 @@ h1{
   color: #FFFFFF;
   text-align: center;
 }
-/* test paragraphs---------------------------------------------------- */
+/* Headshot image----------------------------------------------------------------------- */
+img{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Paragraphs--------------------------------------------------------------------------- */
 p{
   font-family: helvetica;
   color: #ffffff;
   text-align: center;
-  margin: 50px 200px 50px 200px;
+  margin: 25px 200px;
 }
 /* Boxes showing project photos--------------------------------------------------------- */
 /* attempt 2 */
