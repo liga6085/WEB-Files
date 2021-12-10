@@ -7,8 +7,24 @@
     <script defer src="portfolio.js"></script>
   </head>
   <body>
-    <h1>Portfolio</h1>
-    <section>
+    <!-- <h1>Portfolio</h1> -->
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+
+    <div class="container">
+      <h1>Portfolio</h1>
+      <div class="top-content">
+        <h3>Project Gallery</h3>
+        <label for="check1">All Projects</label>
+        <label for="check2">Hardware</label>
+        <label for="check3">Software</label>
+        <label for="check4">Art</label>
+      </div>
+    </div>
+    <!-- Attempt 2------------------------------------------------------------------ -->
+    <!-- <section>
       <ul>
         <li class="list active" data-filter="all">Show All</li>
         <li class="list" data-filter="software">Software</li>
@@ -23,7 +39,8 @@
         <div class="itemBox" data-item="software">software2</div>
         <div class="itemBox" data-item="hardware">hardware2</div>
       </div>
-    </section>
+    </section> -->
+    <!-- Attempt 1------------------------------------------------------------------ -->
     <!-- <div id="buttons">
       <button class="btn" onclick="filterObjects('all')">Show All</button>
       <button class="btn" onclick="filterObjects('software')">Software</button>
