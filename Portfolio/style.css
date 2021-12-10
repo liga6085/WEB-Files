@@ -94,7 +94,7 @@ p{
 .container{
   width: 100%;
   height: auto;
-  background: white;
+  /* background: white; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -104,9 +104,10 @@ p{
 .box{
   width: 200px;
   height: 200px;
-  background: yellow;
+  background: #F5F1E3;
   margin: 20px;
   box-sizing: border-box;
+  border-radius: 12px;
 }
 /* .box1{
   width: 200px;
