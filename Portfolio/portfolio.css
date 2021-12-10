@@ -189,6 +189,7 @@ label:hover{
 .pic{
   position: relative;
   height: 230px;
+  transition: .5s;
 }
 
 .pic img{
@@ -239,12 +240,14 @@ label:hover{
   opacity: 1;
   transform: scale(1);
   position: relative;
+  transition: .5s;
 }
 
 #check2:checked ~.container .project-gallery .hardware{
   transform: scale(1);
   opacity: 1;
   position: relative;
+
 }
 
 #check2:checked ~.container .project-gallery .software,
@@ -252,4 +255,35 @@ label:hover{
   opacity: 0;
   transform: scale(0);
   position: absolute;
+  transition: 0s;
+}
+
+#check3:checked ~.container .project-gallery .software{
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+
+}
+
+#check3:checked ~.container .project-gallery .hardware,
+#check3:checked ~.container .project-gallery .art{
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
+}
+
+#check4:checked ~.container .project-gallery .art{
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+
+}
+
+#check4:checked ~.container .project-gallery .hardware,
+#check4:checked ~.container .project-gallery .software{
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  transition: 0s;
 }
