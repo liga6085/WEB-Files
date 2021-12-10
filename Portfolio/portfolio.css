@@ -170,9 +170,16 @@ label{
   font-size: 18px;
   color: grey;
   cursor: pointer;
-  transition: .5s;
+  transition: color .5s;
 }
 
 label:hover{
-  
+  color: red;
+}
+
+.project-gallery{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
