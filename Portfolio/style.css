@@ -7,11 +7,46 @@
 section.sec1{
   text-decoration: none;
 }
+
+section.sec2{
+
+}
 /* Menu header-------------------------------------------------------------------------- */
 nav{
   width: 100%;
   height: 50px;
-  background-color: #F5F1E3;
+  background: #F5F1E3;
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0 100px;
+  float: left;
+  background: #F5F1E3;
+}
+
+nav ul li{
+  list-style: none;
+
+}
+
+nav ul li a{
+  display: block;
+  color: #154258;
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-weight: bold;
+  line-height: 50px;
+  background: #F5F1E3;
+}
+/* nav{
+  width: 100%;
+  height: 50px;
+  background: #F5F1E3;
   position: sticky;
   top: 0;
 }
@@ -42,18 +77,38 @@ nav ul li a{
 
 nav ul li a:hover{
   background-color: #DDDBCB;
-}
+} */
 /* Name on website---------------------------------------------------------------------- */
-/* h1{
+h1{
   font-family: helvetica;
   font-size: 100px;
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
-} */
+}
+/* test paragraphs---------------------------------------------------- */
+p{
+  margin: 200px;
+}
 /* Boxes showing project photos--------------------------------------------------------- */
+.container{
+  width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
 
-.box1{
+.box{
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  margin: 20px;
+  box-sizing: border-box;
+}
+/* .box1{
   width: 200px;
   height: 200px;
   background-color: #F5F1E3;
@@ -84,7 +139,6 @@ nav ul li a:hover{
   margin-left: 470px;
   margin-top: 20px;
   transition: 1s;
-  z-index: 200;
 }
 
 .box4{
@@ -99,31 +153,27 @@ nav ul li a:hover{
 }
 
 .box1:hover{
-  transform: scale(1.2);
   background-color: #DDDBCB;
 }
 
 .box2:hover{
-  transform: scale(1.2);
   background-color: #DDDBCB;
 }
 
 .box3:hover{
-  transform: scale(1.2);
   background: #DDDBCB;
 }
 
 .box4:hover{
-  transform: scale(1.2);
   background-color: #DDDBCB;
-}
+} */
 /* Wave Animation (Bottom of screen)---------------------------------------------------- */
-footer.waves{
+/* footer.waves{
   width: 100%;
   height: 30vh;
-  /* background: #1B9AAA; */
   overflow: hidden;
   position: sticky;
+  margin-top: auto;
 }
 
 footer .wave{
@@ -202,5 +252,12 @@ footer .wave.wave4{
   100%{
     background-position-x: -1000px;
   }
+} */
+/* footer{
+  width: 100%;
+  height: 20px;
+  background-color: #F5F1E3;
+  position: sticky;
+  bottom: 0;
 }
 /* ------------------------------------------------------------------------------------- */
