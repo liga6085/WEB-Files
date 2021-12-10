@@ -98,3 +98,11 @@ button[type="submit"]:hover{
   }
 } */
 /* --------------------------------------------------------------------------------- */
+section{
+  text-align: center;
+  margin: auto;
+}
+
+h2{
+  margin: 20px;
+}
