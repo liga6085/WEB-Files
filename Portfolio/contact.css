@@ -6,9 +6,10 @@
 
 body{
   font-family: helvetica;
+  background-color: #1B9AAA;
 }
 
-section{
+/* section{
   height: 100vh;
   width: 100%;
   background-color: #1B9AAA;
@@ -95,4 +96,5 @@ button[type="submit"]:hover{
     opacity: 0;
     pointer-events: none;
   }
-}
+} */
+/* --------------------------------------------------------------------------------- */
