@@ -103,6 +103,7 @@ section ul li.active{
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
+  /* background: #1B9AAA; */
 }
 
 input{
@@ -194,4 +195,14 @@ label:hover{
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.pic::before{
+  content: "PROJECT GALLERY";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
