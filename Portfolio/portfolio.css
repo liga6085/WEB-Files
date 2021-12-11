@@ -228,10 +228,18 @@ label:hover{
   grid-gap: 15px;  /* gap between photos */
 }
 
+p{
+  background-color: #F5F1E3;
+  margin-top: 80px;
+  color: #154258;
+}
+
 .pic{
   position: relative;
   height: 230px;
+  background-color: #F5F1E3;
   transition: .5s;
+  border-radius: 10px;
 }
 
 .pic img{
