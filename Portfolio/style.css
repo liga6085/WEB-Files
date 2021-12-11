@@ -25,12 +25,12 @@ section.sec2{
 .progress-container{
   width: 100%;
   height: 8px;
-  background: black;
+  background: #F5F1E3;
 }
 
 .progress-bar{
   height: 8px;
-  background: blue;
+  background: #154258;
   width: 0%;
 }
 /* Menu header-------------------------------------------------------------------------- */
