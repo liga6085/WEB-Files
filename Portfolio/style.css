@@ -42,6 +42,7 @@ nav ul li a{
   font-weight: bold;
   line-height: 50px;
   background: #F5F1E3;
+  transition: 1s;
 }
 /* nav{
   width: 100%;
@@ -74,10 +75,10 @@ nav ul li a{
   font-weight: bold;
   transition: 1s;
 }
-
+*/
 nav ul li a:hover{
   background-color: #DDDBCB;
-} */
+}
 /* Name on website---------------------------------------------------------------------- */
 h1{
   font-family: helvetica;
@@ -85,6 +86,7 @@ h1{
   font-weight: 600;
   color: #FFFFFF;
   text-align: center;
+  margin-top: 50px;
 }
 /* Headshot image----------------------------------------------------------------------- */
 img{
