@@ -154,11 +154,12 @@ input{
 
 h1 {
   position: relative;
-  margin: 60px 0;
+  margin: 60px 0 30px 0;
   color: white;
+  font-size: 50px;
 }
 
-h1:before{
+/* h1:before{
   content: '';
   position: absolute;
   width: 100px;
@@ -168,7 +169,7 @@ h1:before{
   left: 50%;
   transform: translateX(-50%);
   animation: animate 4s linear infinite;
-}
+} */
 
 @keyframes animate{
   0%{
@@ -213,7 +214,7 @@ label{
 }
 
 label:hover{
-  color: red;
+  color: #154258;
 }
 
 .project-gallery{
