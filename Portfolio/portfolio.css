@@ -184,21 +184,22 @@ h1 {
 }
 
 .top-content{
-  background-color: lightgrey;
+  background-color: #157582;
   width: 90%;
   margin: 0 auto 20px auto;
   height: 60px;
   display: flex;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 h3{
   height: 100%;
-  background-color: grey;
+  background-color: #154258;
   line-height: 60px;
   padding: 0 50px;
   color: white;
+  border-radius: 10px;
 }
 
 label{
@@ -208,7 +209,8 @@ label{
   margin: 0 10px;
   line-height: 60px;
   font-size: 18px;
-  color: grey;
+  color: white;
+  background-color: #157582;
   cursor: pointer;
   transition: color .5s;
 }
