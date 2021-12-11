@@ -242,8 +242,38 @@ label:hover{
   transition: .5s;
 }
 
-.pic::before{
-  content: "PROJECT GALLERY";
+.pic.hardware::before{
+  content: "HARDWARE";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .2s;
+  z-index: 1;
+}
+
+.pic.software::before{
+    content: "SOFTWARE";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  margin-top: -100px;
+  opacity: 0;
+  transition: .3s;
+  transition-delay: .2s;
+  z-index: 1;
+}
+
+.pic.art::before{
+    content: "ART";
   position: absolute;
   top: 50%;
   left: 50%;
