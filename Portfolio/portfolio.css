@@ -103,7 +103,7 @@ section ul li.active{
   padding: 0;
   box-sizing: border-box;
   font-family: helvetica;
-  /* background: #1B9AAA; */
+  background: #1B9AAA;
 }
 
 input{
@@ -118,6 +118,7 @@ input{
 h1 {
   position: relative;
   margin: 40px 0;
+  color: white;
 }
 
 h1:before{
@@ -125,7 +126,7 @@ h1:before{
   position: absolute;
   width: 100px;
   height: 3px;
-  background-color: red;
+  background-color: white;
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
