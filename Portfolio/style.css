@@ -119,6 +119,15 @@ p{
   margin: auto;
   display: flex;
   border-radius: 15px;
+
+}
+
+h5{
+  background: none;
+  text-align: center;
+  margin: auto;
+  font-family: helvetica;
+  color: #154258;
 }
 
 /* attempt 2 */
