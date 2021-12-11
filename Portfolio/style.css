@@ -130,6 +130,22 @@ h5{
   color: #154258;
 }
 
+a.seeMore{
+  text-align: center;
+  margin-left: 45%;
+  margin-right: 45%;
+  display: flex;
+  text-decoration: none;
+  font-family: helvetica;
+  color: white;
+  font-size: 20px;
+  transition: .5s;
+}
+
+a.seeMore:hover{
+  color: #154258;
+}
+
 /* attempt 2 */
 /* .container{
   width: 100%;
